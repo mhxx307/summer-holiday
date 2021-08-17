@@ -131,9 +131,6 @@
         padding: 0;
     }
     
-    .text-destination:after{
-        width:150%;
-    }
 
     .destination-search {
         padding-left: 20px;

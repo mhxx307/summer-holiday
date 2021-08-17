@@ -52,6 +52,49 @@ html {
     display: inline-block;
 }
 
+.btn.btn--m-size {
+    padding: 10px 20px;
+}
+
+/* package */
+
+.package-price--active {
+    background-color: var(--primary-color);
+}
+
+.package-price--active .package-price__item,.package-price__level,.pakage-price__dollard,.package-price__number {
+    color: var(--white-color);
+}
+
+.package-price--active .package-price__level {
+    color: var(--white-color);
+}
+
+.package-price--active .pakage-price__dollard {
+    color: var(--white-color);
+}
+
+.package-price--active .package-price__number {
+    color: var(--white-color);
+}
+
+.package-price--active .package-price__time {
+    color: var(--white-color);
+    background-color: transparent;
+    border: 1px solid var(--white-color);
+}
+
+.package-price--active .package-price__btn {
+    background-color: transparent;
+    border: 1px solid var(--white-color);
+}
+
+.package-price--active .package-price__icon-check i{
+    color: var(--primary-color);
+}
+
+/* banner */
+
 .banner {
     float: right;
     text-transform: uppercase;

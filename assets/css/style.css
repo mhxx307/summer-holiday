@@ -419,8 +419,11 @@ html {
     line-height: 3.6rem;
     font-weight: bold;
     color: #555;
+    display: inline-block;
+}
+
+.text-destination {
     position: relative;
-    display: inline;
 }
 
 .text-destination:after{
@@ -839,6 +842,86 @@ html {
     letter-spacing: 2px;
     text-align: justify;
     margin: auto 0;
+}
+
+/* packages price */
+
+.packages-price {
+    margin-top: 40px;
+}
+
+.package-price {
+    border: 1px solid #f1f1f1;
+    padding: 40px 30px;
+}
+.package-price__money {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.package-price__number {
+    display: inline-block;
+    font-size: 6rem;
+    line-height: 6rem;
+    font-weight: 400;
+    color: #555;
+    margin: 0;
+}
+
+.pakage-price__dollard {
+    font-size: 30px;
+    line-height: 30px;
+    float: right;
+}
+
+.package-price__time {
+    display: inline-block;
+    color: var(--white-color);
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    background-color: #555;
+    border-radius: 30px;
+    margin-top: 25%;
+}
+
+.package-price__level {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    color: #555;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: block;
+    padding: 25px 0;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.package-price__list {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.package-price__item {
+    font-size: 1.4rem;
+    line-height: 4rem;
+    color: #878787;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.package-price__icon-check i {
+    color: #68b78c;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.package-price__btn {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    margin: 20px 0;
 }
 
 .footer {
