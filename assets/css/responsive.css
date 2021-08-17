@@ -1,0 +1,166 @@
+/* tablet and mobile */
+@media (max-width:1023px) {
+    .main-nav__mobile-icon {
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .main-nav__close-img {
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+
+    .peoposals-destination__packages-hover1,
+    .peoposals-destination__packages-hover2 {
+        padding: 50% 0;
+    }
+
+    .travel-section {
+        padding: 30px 0;
+    }
+
+    .aside__title {
+        text-align: center;
+    } 
+    
+    .news__item  {
+        margin: 30px 50px;
+    }
+
+    .news__primary {
+        margin: 0 30px;
+        padding-bottom: 40px;
+    }
+
+    .introduction-wrapp {
+        margin-bottom: 40px;
+    }
+}
+
+/* tablet */
+@media (min-width:740px) and (max-width:1023px) {
+    .package-sales__contain {
+        padding-top: 30px;
+    }
+
+    .package-sales__img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .package-sales__text {
+        font-size: 3rem;
+        line-height: 5.6rem;
+    }
+    
+    .package-sales__button {
+        min-width: 170px;
+        max-width: 170px;
+        line-height: 30px;
+    }
+
+    .package-sales__date {
+        min-height: 100px;
+        min-width: 100px;
+    }
+
+
+    .travel-section__item {
+        justify-content: unset;
+    }
+    
+    .travel-section__img {
+        margin-right: 20px;
+    }
+}
+
+/* mobile */
+/* iphone co padding 60px */
+@media (max-width:739px) {
+
+    .slider {
+        height: 80vh;
+        background-size: cover;
+    }
+
+    .package-sales {
+        left: -20%;
+        right: -20%;
+    }
+
+    .package-sales__contain {
+        padding-top: 80px;
+    }
+
+    .package-sales__img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .package-sales__text {
+        font-size: 3.2rem;
+        line-height: 6.4rem;
+        margin-bottom: 30px;
+    }
+    
+    .package-sales__button {
+        font-size: 3.2rem;
+        line-height: 6.4rem;
+    }
+
+    .package-sales__date {
+        min-height: 130px;
+        min-width: 130px;
+        right: 15%;
+    }
+
+    .package-sales__date p {
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+
+
+
+    .proposals-destination {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+
+    .travel-section__text {
+        padding: 0;
+    }
+    
+    .text-destination:after{
+        width:150%;
+    }
+
+    .destination-search {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .travel-section__button {
+        font-size: 1.3rem;
+    }
+
+    .introduction-wrapp {
+        padding: 0 30px;
+    }
+}
+
+/* ipad pro */
+@media (min-width:1024px) and (max-width:1324px) {
+
+    .package-sales__contain {
+        padding-top: 40px;
+    }
+
+    .package-sales__button {
+        font-size: 1.6rem;
+        min-width: 200px;
+        max-width: 200px;
+        line-height: 4rem;
+    }
+}
+
