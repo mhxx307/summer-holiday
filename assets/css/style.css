@@ -2,9 +2,9 @@ html {
     scroll-behavior: smooth;
 }
 
-.wrapper {
+/* .wrapper {
     overflow: hidden;
-}
+} */
 
 .header {
     background-color: var(--header-color);
@@ -457,7 +457,7 @@ html {
 
 .peoposals-destination__packages-hover1:hover,
 .peoposals-destination__packages-hover2:hover {
-    background-image: url(https://www.colorhexa.com/14b9d5.png);
+    background-image: url(../img/14b9d5.png);
     transition: all linear 0.6s;
 }
 
@@ -647,7 +647,7 @@ html {
 
 /* search destination */
 .destination-search {
-    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/11/para-2.jpg);
+    background-image: url(../img/para-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 60px;
@@ -814,7 +814,7 @@ html {
 
 .introduction {
     margin-top: 60px;
-    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/11/para-5.jpg);
+    background-image: url(../img/para-5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px 0;
@@ -924,9 +924,109 @@ html {
     margin: 20px 0;
 }
 
+/* footer */
+
 .footer {
-    width: 100%;
-    height: 300px;
+    margin-top: 60px;
+    padding-bottom: 60px;
+    background-image: url(../img/footerBR.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer__search-text {
+    padding-top: 80px;
+}
+
+.footer__search-text p {
+    margin: 0;
+    color: var(--white-color);
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+}
+
+.footer__search-text h3 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: var(--white-color);
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+    font-weight: 600;
 }
 
 
+
+
+.footer__search-input {
+    background-color: #f9f9f9;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: 1px solid #f1f1f1;
+    outline: none;
+    color: #a3a3a3;
+    font-size:1.6rem;
+    line-height: 1.6rem;
+    -webkit-appearance: none;
+}
+
+.footer__search-btn {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    outline: none;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    border-radius: 22px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+
+.row-flex-end {
+    align-items: flex-end;
+}
+
+.footer__info {
+    background-color: var(--white-color);
+    padding: 35px 30px;
+    margin-top: 60px;
+}
+
+.footer__info-aside {
+
+}
+
+.footer__info-logo {
+
+}
+
+.footer__info-title-img {
+
+}
+
+.footer__info-text {
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+    letter-spacing: 1px;
+    color: #a3a3a3;
+}
+
+.footer__info-social-list {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+}
+
+.footer__info-social-item {
+    margin-right: 22px;
+}
+
+.footer__info-social-link {
+
+}
