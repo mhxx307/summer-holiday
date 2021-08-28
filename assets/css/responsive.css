@@ -85,6 +85,7 @@
     .package-sales {
         left: -20%;
         right: -20%;
+        display: none;
     }
 
     .package-sales__contain {
@@ -143,6 +144,44 @@
 
     .introduction-wrapp {
         padding: 0 30px;
+    }
+
+    .footer__search-text {
+        padding-left: 60px;
+        margin-bottom: 60px;
+    }
+
+    .footer__search-form {
+        padding-left: 60px;
+    }
+
+    .footer__search-btn {
+        display: block;
+        width: 264px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+
+    .footer__info-item {
+        margin-bottom: 40px;
+    }
+
+    .footer__info-item:first-child {
+        margin-top: 40px;
+    }
+
+    .footer__info {
+        padding-bottom: 0;
+    }
+
+    .footer__copyright {
+        font-size: 1.2rem;
+        font-weight: 300;
+        line-height: 2.4rem;
+        letter-spacing: 0;
+        display: block;
+        text-align: center;
     }
 }
 
